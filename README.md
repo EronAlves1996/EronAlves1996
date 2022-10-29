@@ -26,7 +26,6 @@
   <ul>
     <li><a href="https://github.com/EronAlves1996/lua-router">[LUA] Lua-Router</a></li>
     <li><a href="https://github.com/EronAlves1996/-BACK-EsseEuJaLI">[Java/Jakarta] Back-end do site Esse Eu Já Li</a></li>
-    <li><a href="https://github.com/EronAlves1996/woovi-challenge">[Koa/Typescript/GraphQL] Back-end feito para o Woovi Challenge</a></li>
   </ul>
 </details>
 
