@@ -1,73 +1,43 @@
-# Hello World
 
-:blush: **Olá, meu nome é Eron Alves, desenvolvedor e life-long learner** <br>
-:computer: Analista de Soluções Customizadas I pela Capgemini <br>
-:floppy_disk: Aprendizado e proficiência principal em :coffee: Java (Spring/Jakarta) e Angular <br>
-:large_blue_circle: https://twitter.com/masoxi22 <br>
-:ballot_box_with_check: https://www.linkedin.com/in/eron-alves-da-silva/ <br>
+# Eron Alves
 
-## Stack
+[![Linkedin](https://img.shields.io/badge/-Connect-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eron-alves-da-silva/)](https://www.linkedin.com/in/eron-alves-da-silva/)
 
-:coffee: Java <br>
-:leaves: Spring <br>
-:tea: Jakarta <br>
-<br>
-:earth_africa: Node.Js<br>
-:yellow_heart: Typescript/Javascript<br>
-:sunglasses: Koa/Express<br>
-:purple_heart: GraphQl.Js<br>
-<br>
-:heart: Angular <br>
+### Custom Solution Analyst I at Capgemini
 
-## Projetos por stack
+![Danny Phantom](https://media3.giphy.com/media/IpeYSEZshTefe/giphy.gif?cid=ecf05e477ihvxw1k80tmm2wvsdjlossuyn3tda2fb7yh099f&rid=giphy.gif&ct=g)
 
-<details>
-<summary>Back End</summary>
-  <ul>
-    <li><a href="https://github.com/EronAlves1996/lua-router">[LUA] Lua-Router</a></li>
-    <li><a href="https://github.com/EronAlves1996/-BACK-EsseEuJaLI">[Java/Jakarta] Back-end do site Esse Eu Já Li</a></li>
-  </ul>
-</details>
+## About me
 
-<details>
-  <summary>Front End</summary>
-  <br>
-  <ul>
-    <li><a href="https://github.com/EronAlves1996/-FRONT-EsseEuJaLi">[Angular] Front-end do site Esse Eu Já Li</a></li>
-    <li><a href="https://github.com/EronAlves1996/Infinite-Scroll-Idea">[Vanilla Javascript] Infinite Scroll Idea</a></li>
-    <li><a href="https://github.com/EronAlves1996/Cat-api">[Vanilla Javascript] Site consumindo o Cat/Dog Api</a></li>
-    <li><a href="https://github.com/EronAlves1996/instagram-dio">[HTML/CSS] Clone do Instagram</a></li>
-    <li><a href="https://github.com/EronAlves1996/Calculator">[Vanilla Javascript] Calculadora</a></li>
-    <li><a href="https://github.com/EronAlves1996/Etch-A-Sketch">[Vanilla Javascript] Etch-A-Sketch</a></li>
-    <li><a href="https://github.com/EronAlves1996/Rock-Paper-Scisors">[Vanilla Javascript] Jogo de pedra-papel-tesoura</a></li>
-    <li><a href="https://github.com/EronAlves1996/Landing-Page">[Vanilla Javascript] Landing Page</a></li>
-    <li><a href="https://github.com/EronAlves1996/Password-Generator">[Vanilla Javascript] Gerador de senhas</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Full Stack</summary>
-  <ul>
-    <li><a href="https://github.com/EronAlves1996/-BACK-EsseEuJaLI">[Java/Jakarta] Back-end do site Esse Eu Já Li</a></li>
-    <li><a href="https://github.com/EronAlves1996/-FRONT-EsseEuJaLi">[Angular] Front-end do site Esse Eu Já Li</a></li>
-  </ul>
-</details>
-  
-  <details>
-  <summary>Outros</summary>
-  <ul>
-    <li><a href="https://github.com/EronAlves1996/Telnet-Chat">[Java] Telnet Chat</a></li>
-    <li><a href="https://github.com/EronAlves1996/OfenderCLIApp">[Java] Ofender CLI App</a></li>
-    <li><a href="https://github.com/EronAlves1996/Sistema-Caixa-Eletr-nico">[Java] Sistema de Caixa Eletrônico</a></li>
-    <li><a href="https://github.com/EronAlves1996/moedaParaExtenso">[Java] Conversor de moeda para extenso</a></li>
-    <li><a href="https://github.com/EronAlves1996/LinkedListComRecursivos">[C++] Linked List montada com recursivos</a></li>
-  </ul>
-  </details>
+```java
+package person
 
-## Currently learning
+import java.util.Map;
+import java.util.HashMap;
 
-<ul>
-  <li>Java</li>
-  <li>Spring</li>
-  <li>Clojure</li>
-  <li>React</li>
-  </ul>
+public class Me {
+    private String name;
+    private String actualCompany;
+    private String twitterHandler;
+    
+    private Map<String, String[]> mainStack = new HashMap<>();
+    private URL linkedin;
+    
+    public Me(){
+      this.name = "Eron Alves da Silva"
+      this.actualCompany = "Capgemini"
+      this.twitterHandler = "masoxi22";
+    
+      this.mainStack.put("Java", {"Spring", "Jakarta"});
+      this.mainStack.put("Typescript", {"Angular", "Express", "Koa"});
+      
+      try{
+      
+        this.linkedin = new URL("https://www.linkedin.com/in/eron-alves-da-silva/");
+        
+      } catch (MalformedURLException ex){
+        System.out.println("Meu linkedin existe em!");
+      }
+    }
+}
+```
